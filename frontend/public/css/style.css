@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    background-color: rgb(100, 100, 100);
+    width: max-content;
+}
+
+.btn{
+    border-radius: 0;
+    height: 45px;
+    width: 80px;
+    padding: 0;
+    font-size: 24px;
+}
+
+#input-calc{
+    width: 100%;
+    background-color: #fff;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: right;
+    padding: 0 5px 5px 0;
+}
+
+.list-group{
+    overflow:scroll;
+    overflow-x: hidden;
+    height: max-content;
+    max-height: 41.5vh;
+    position: relative;
+    border-radius: 0;
+    width: 100%;
+
+}
+.list-group-item{
+    display: flex;
+    flex-direction: column;
+}

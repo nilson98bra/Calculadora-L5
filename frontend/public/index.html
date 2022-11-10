@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mb-1">
+            <div class="col-12">
+                <p id="input-calc"></p>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-3 h-20">
+                <button type="button" id="limpar" class="btn btn-dark">C</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="par-left" value="(" class="btn parenteses btn-dark">(</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="par-right" value=")" class="btn parenteses btn-dark">)</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="divisao" value="÷" class="btn operacao btn-dark">÷</button>
+            </div>
+            
+        </div>
+        <div class="row mb-2">
+            <div class="col-3">
+                <button type="button" value="9" class="btn numerico btn-dark">9</button>
+            </div>
+            <div class="col-3">
+                <button type="button" value="8" class="btn numerico btn-dark">8</button>
+            </div>
+            <div class="col-3">
+                <button type="button" value="7" class="btn numerico btn-dark">7</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="multiplicacao" value="x" class="btn operacao btn-dark">x</button>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-3">
+                <button type="button" value="6" class="btn numerico btn-dark">6</button>
+            </div>
+            <div class="col-3">
+                <button type="button" value="5" class="btn numerico btn-dark">5</button>
+            </div>
+            <div class="col-3">
+                <button type="button" value="4" class="btn numerico btn-dark">4</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="menos" value ="-" class="btn operacao btn-dark">-</button>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-3">
+                <button type="button" id="3" value="3" class="btn numerico btn-dark">3</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="2" value="2" class="btn numerico btn-dark">2</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="1" value="1" class="btn numerico btn-dark">1</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="mais" value="+" class="btn operacao btn-dark">+</button>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-3">
+                <button type="button" id="0" value="0" class="btn numerico btn-dark">0</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="virgula" value="," class="btn btn-dark">,</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="apagar" value="apagar" class="btn btn-dark">&lt</button>
+            </div>
+            <div class="col-3">
+                <button type="button" id="igual" class="btn btn-dark">=</button>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <input class="form-control rounded-0" id="input-nome" type="text" placeholder="Insira seu nome...">
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/funcoesCalculadora.js"></script>
+    <script src="./js/calculadora.js"></script>
+</body>
+</html>
