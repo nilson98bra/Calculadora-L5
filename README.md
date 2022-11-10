@@ -12,7 +12,7 @@
 - Na pasta 'backend', deve ser usado o comando 'npm install' para instalar todas as dependências.
 - Na pasta 'backend', deve ser colocado um arquivo '.env' no exemplo mostrado no '.env.example'.
 - Na pasta 'frontend', deve ser usado o comando 'npm install' para instalar todas as dependências.
-- Para funcionar o backend, deve ser usado o comando 'node server.js'.
-- Para funcionar o frontend, deve ser usado o comando 'node server.js'.
+- Para funcionar o backend, deve ser usado o comando 'node server.js' na raiz da pasta 'backend'.
+- Para funcionar o frontend, deve ser usado o comando 'node server.js' na raiz da pasta 'frontend'.
 - Para acessar o frontend, coloque no navegador 'localhost:4000'.
 - No arquivo -> 'frontend\public\js\api.js', deve mudar a porta usada da api para a escolhida no arquivo '.env' da pasta 'backend'.
