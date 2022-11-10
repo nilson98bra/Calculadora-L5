@@ -1,10 +1,6 @@
 # calculadora-L5 - Ivanilson Santos
  Realiza as 4 operações básicas e parenteses de uma calculadora, sendo registrado as informações em um banco de dados
 
-# Challenge - Developer Backend - Ivanilson Santos
-
-Aqui contêm as instruções para os acessos aos endponts dessa API.
-
 ## Tecnologias Usadas
 
 - Nodejs.
